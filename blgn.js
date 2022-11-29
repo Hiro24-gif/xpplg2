@@ -25,6 +25,6 @@ else {
 {console.log(c+ ' adalah bilangan terbesar  dan  '+ b +' adalah bilangan terkecil ')}}  
     }
 }}}
-let ganteng = (a+b+c)
-let rama =  (ganteng/3)
-console.log(rama)
+var ganteng = (a+b+c)
+var rama =  (ganteng/3)
+console.log('nilai rata ratanya adalah '+ rama)
