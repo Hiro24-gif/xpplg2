@@ -1,11 +1,9 @@
 var wow=require('readline-sync');
-let a = wow.question('masukan bilangan pertama ')
-let b = wow.question('masukan bilangan kedua ')
-let c = wow.question('masukan bilangan ketiga ')
-if (isNaN(c&&b&&a)){
-    console.log('input yang anda masukan bukan angka ')
-}
-else{
+let a = wow.questionInt('masukan bilangan pertama ')
+let b = wow.questionInt('masukan bilangan kedua ')
+let c = wow.questionInt('masukan bilangan ketiga ')
+
+
 if (a>b&&a>c&&b>c){
 console.log(a+ ' adalah bilangan terbesar  dan  '+ c +' adalah bilangan terkecil ')}
   else{
@@ -22,9 +20,14 @@ else {
     console.log(c+ ' adalah bilangan terbesar  dan  '+ a +' adalah bilangan terkecil ')
 
   else {if (c>a&&c>b&&a>b)
-{console.log(c+ ' adalah bilangan terbesar  dan  '+ b +' adalah bilangan terkecil ')}}  
+{console.log(c+ ' adalah bilangan terbesar  dan  '+ b +' adalah bilangan terkecil ')}
+else{
+    if(a==b&&b==c&&a==c)
+    {console.log('input yang anda masukan sama besar')}
+}
+} 
     }
-}}}
-var ganteng = (a+b+c)
-var rama =  (ganteng/3)
-console.log('nilai rata ratanya adalah '+ rama)
+}}
+var bayu = (a+b+c)
+var rama = (bayu/3)
+console.log('nilai rata rata adalah '+rama)
