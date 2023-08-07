@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <form>
+        <h1>Buat Akun Baru</h1>
+        <h4>Sign Up Form</h4>
+
+        <label for="FirstName">First Name:</label>
+        <br>
+        <br>
+        <input type="text" id="nama1" name="nama1" required>
+
+        <br>
+
+        <br>
+
+        <label for="LastName">Last Name:</label>
+
+        <br>
+        <br>
+        <input type="text" id="nama2" name="nama2" required>
+
+        <br>
+        <br>
+
+        <h4>Gender</h4>
+
+        <input type="radio" name="pilihan" value="male" id="opsi1" required>
+        <label for="male">Male</label><br>
+        <input type="radio" name="pilihan" value="female" id="opsi2" required>
+        <label for="female">Female</label><br>
+
+        <h4>Nationality</h4>
+        <select required>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Jawa">Jawa</option>
+            <option value="Sunda">Sunda</option>
+            <option value="British">British</option>
+        </select>
+
+        <br>
+
+        <h4>Language Spoken</h4>
+        <br>
+        <input type="checkbox" id="Bhs1" name="Language">
+        <label for="Bhs1">Bahasa Indonesia</label>
+        <br>
+        <input type="checkbox" id="Bhs2" name="Language">
+        <label for="Bhs2">English</label>
+        <br>
+        <input type="checkbox" id="Bhs3" name="Language">
+        <label for="Bhs3">Other</label>
+
+        <br>
+
+        <h4>Bio</h4>
+        <br>
+        <textarea id="Kolom" cols="30" rows="10"></textarea>
+
+        <br>
+        <br>
+        <button type="submit" formaction="welcome.html">Sign Up</button>
+       </form>
+</body>
+
+</html>

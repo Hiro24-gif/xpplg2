@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1><strong>SELAMAT DATANG!</strong></H1>
+    <h3>terima kasih telah bergabung di Website kami. Media Belajar kita bersama!</h3>
+</body>
+</html>
